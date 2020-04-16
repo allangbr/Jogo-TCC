@@ -56,7 +56,7 @@ class Bola{
     strokeWeight(2);
     if(this.speed == 0){
     
-      line(this.x,this.y,this.x+cos(this.angle)*this.d*6,this.y+sin(this.angle)*this.d*6);
+      line(this.x,this.y,this.x+cos(this.angle)*this.d*3,this.y+sin(this.angle)*this.d*3);
     }
   }
   
